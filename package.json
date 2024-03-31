@@ -1,0 +1,32 @@
+{
+  "name": "feature-backend",
+  "version": "1.0.0",
+  "description": "feature use",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MastanKomodheen/Feature-Backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "cors",
+    "mongoose"
+  ],
+  "author": "Mastan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MastanKomodheen/Feature-Backend/issues"
+  },
+  "homepage": "https://github.com/MastanKomodheen/Feature-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  }
+}
